@@ -1,0 +1,85 @@
+.contact-page {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 2rem;
+  text-align: center;
+
+  form {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 500px;
+    margin: auto;
+
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+
+    .contact-text-field {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      width: 100%;
+      padding: 0.9rem;
+      margin: 0.5rem 0;
+      border-radius: 25px; // Rounded edges
+      background-color: #1d1d1de8;
+      border: 2px solid #1d1d1de8;
+      color: #f0eaf2;
+    }
+
+    .send {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      padding: 0.7rem 1.5rem;
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid #a61bd8;
+      color: white;
+      cursor: pointer;
+      border-radius: 25px; // Rounded edges for button
+
+      &:hover {
+        background-color: #a61bd8;
+      }
+    }
+  }
+}
+
+.background-gradient2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 135vh;
+  background: linear-gradient(155deg, #000000, #0a0a0a);
+  z-index: -2; // Ensures it's below the video
+}
+
+.end1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #fff; // White text color
+  text-align: center; // Center align the text
+  padding: 0px 10px; // Space inside the footer
+  font-size: 14px; // Adjust text size
+  margin-top: 125px;
+
+  .ending1 {
+    a {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #fafafa; // Link color
+      text-decoration: none; // Remove underline
+      margin: 0 5px; // Space between links
+
+      &:hover {
+        text-decoration: underline; // Underline on hover
+      }
+    }
+  }
+}
